@@ -1,0 +1,51 @@
+Project Documentation
+Objective:-
+A single cloned google page with a Logo of SideHustle, which the value or anything typed in the input field replaces the sideHustle Logo and if the input field is empty, it shows back the sideHustle Logo.
+
+Stakeholders:-
+Ozoemena Bright @Brytozee
+Oreoluwa Sola-ojo @OreoluwaOSG
+Anuoluwapo Tenibiaje @Anuoluwapo
+Ernestina Tawiah @Tina_Marley
+Owolabi Adeyemi @goonerlabs
+Enaanasebh Living @Enaanasebh Living
+Ebenezer Michaela @Michaela
+Afarait Sulaimon Bola @Sulaimon
+Arafat Motolani  @ Damilola
+Temidayo Abiodun @olufinest
+
+Prerequisites
+Installation of Nodejs, to be able to run React
+
+Created a React app using npx create-react-app myprojectName
+
+Inbuilt Function Documentation:
+The usage of state, which was used to set the initial stage of the logo and also to update the data, where the logo is.
+
+When the handler was created, a check was made to know, if the event.target.value is empty or not, if it is empty, it will display the logo and if it is not empty, it will display the data in the input field.
+
+onChange event handled the immediate change inside the input field.
+
+Must Have
+- Side Hustle Logo must display at the top
+- input data must replace the logo
+- When input field is empty, it must show the Side Hustle Logo
+
+
+Should have
+- A search button
+- A language switch button
+
+
+Could Have
+- Background switch button (That allows users to set the kind of background needed)
+
+Won't Have
+- A database
+- API that allows users to get data from us
+
+
+Project Timeline
+- 3 Days
+
+ 
