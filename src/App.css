@@ -1,0 +1,189 @@
+
+
+body {
+
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size: 0.9em;   
+}
+
+a {
+  margin: 5px 5px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.menu-left {
+  display: flex;
+  justify-content: flex-start;    
+  padding-left: 20px; 
+  align-items: center;
+}
+
+.menu-right {
+  display: flex;
+  justify-content: flex-end; 
+  padding-right: 20px;
+  align-items: center;
+}
+
+.image-hide{
+  display: none;
+}
+
+ul > a, ul > img {
+  padding: 0 8px;
+}
+
+.my-apps:hover, .my-profile:hover {
+  border-radius: 200px;
+  box-shadow: 0 0 10px gainsboro;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;   
+  flex-direction: column;
+  margin-top: 5vh;  
+}
+
+
+.input {
+  display: flex;
+  flex-direction: row;   
+  justify-content: space-between;  
+  width: 600px;
+  height: 38px;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+}
+
+.input:hover {
+  box-shadow: 0 0 10px gainsboro;
+}
+
+.input > input {
+  flex-grow: 8;   
+  border: none;
+  outline: none;  
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.my-buttons-container {
+  display: flex;
+  flex-direction: row;   
+  padding-top: 53px;
+}
+
+button {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: none;
+  min-width: 54px;
+  height: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px gainsboro;
+  
+}
+
+.footer {
+  margin-top: 2em;
+  background-color: #F2F2F2;
+  position: fixed;  
+  width: 100vw;
+  bottom: 0;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: flex-start;   
+  padding-left: 20px;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;  
+  margin-right: 20px;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 630px) {
+
+  .footer-nav {
+      flex-direction: column;
+  }
+
+  .footer-left {
+      justify-content: center;
+  }
+
+  .footer-right {
+      justify-content: center;
+  }
+
+  .input {
+      width: 95vw;
+  }
+ .hide{
+   display: none;
+ }
+ .image-hide{
+   display: block;
+ }
+ .image-show{
+   display: none;
+ }
+
+}
+
+@media screen and (max-height: 522px) {
+
+  body {
+      overflow-x: hidden;
+  }
+  .main-section {
+      margin-bottom: 20px;
+
+  }
+  .footer {
+      position: relative;
+  }
+}
+
+@media screen and(max-height: 570px) and (max-width: 630px) {
+
+  body {
+      overflow-x: hidden;
+  }
+  .main-section {
+      margin-bottom: 13px;
+
+  }
+  .footer {
+      position: relative;
+  }
+  
+}
+
