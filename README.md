@@ -1,3 +1,18 @@
+# Contributors
+-Ozoemena Bright SH-IT-0075800
+-Oreoluwa Sola-Ojo SH-IT-0063207
+-Anuoluwapo Tenibiaje SH-IT-0065912
+-Ernestina Tawiah SH-IT-0053341
+-Owolabi Adeyemi SH-IT-0081538
+-Enaanasebh Living SH-IT-0065662
+-Ebenezer Michaela SH-IT-0057405
+-Afarait Sulaimon Bola SH-IT-0053956
+-Arafat Motolani SH-IT-0059192
+-Temidayo Abiodun SH-IT-0111340
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
